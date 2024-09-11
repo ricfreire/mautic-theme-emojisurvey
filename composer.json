@@ -1,0 +1,13 @@
+{
+  "name": "mautic/emojisurvey",
+  "description": "Emoji Survey Email Theme by Ricardo Freire",
+  "type": "mautic-theme",
+  "keywords": ["mautic","theme"],
+  "extra": {
+    "install-directory-name": "emojisurvey"
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "mautic/core-lib": "^5.0"
+  }
+}

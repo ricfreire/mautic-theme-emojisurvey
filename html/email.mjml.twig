@@ -1,0 +1,86 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Instrument Sans" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="Instrument Sans, Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text line-height="26px" color="#343434" font-weight="400" padding="0px" font-size="16px" />
+    </mj-attributes>
+    <mj-style>.es-text a { text-decoration: underline; color: unset; } p { margin: 0px 0px 0px 0px !important; }
+  </mj-head>
+  <mj-body background-color="#ffcbb4">
+    <!-- Viewtext -->
+    <mj-section padding="40px 0px">
+      <mj-column>
+        <mj-text css-class="es-text" color="#AE6765" font-size="14px" align="center"> {webview_text} </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Content -->
+    <mj-section border-radius="20px 20px 0px 0px" padding="30px 30px" background-color="#fff">
+      <mj-column>
+        <mj-text css-class="es-text" font-size="24px" font-weight="600" align="center">Hi, Anna!</mj-text>
+        <mj-spacer height="30px"></mj-spacer>
+        <mj-text css-class="nbg-text" align="center">
+          <p>We'd love to hear how your experience was!</p>
+          <p>Can you take a moment to let us know?</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Divider -->
+    <mj-section padding="0px">
+      <mj-column padding="0px">
+        <mj-image fluid-on-mobile="true" padding="0px" src="{{ getAssetUrl('themes/'~template~'/assets/divider.png', null, null, true ) }}"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!-- Survey Emojis -->
+    <mj-section background-color="#f1f1f1" padding="30px 30px 0px 30px">
+      <!-- 1 -->
+      <mj-column width="25%" padding-bottom="50px" vertical-align="top">
+        <mj-image href="https://crafting.email" width="68px" height="68px" align="center" padding="0px" src="{{ getAssetUrl('themes/'~template~'/assets/emoji1.png', null, null, true ) }}"></mj-image>
+        <mj-spacer height="16px"></mj-spacer>
+        <mj-text css-class="cs-text" align="center" font-size="14px">Excellent</mj-text>
+      </mj-column>
+      <!-- 2 -->
+      <mj-column width="25%" padding-bottom="50px" padding="0px 0px" vertical-align="top">
+        <mj-image href="https://crafting.email" width="68px" height="68px" align="center" padding="0px" src="{{ getAssetUrl('themes/'~template~'/assets/emoji2.png', null, null, true ) }}"></mj-image>
+        <mj-spacer height="16px"></mj-spacer>
+        <mj-text css-class="cs-text" align="center" font-size="14px">Good</mj-text>
+      </mj-column>
+      <!-- 3 -->
+      <mj-column width="25%" padding-bottom="50px" padding="0px 0px" vertical-align="top">
+        <mj-image href="https://crafting.email" width="68px" height="68px" align="center" padding="0px" src="{{ getAssetUrl('themes/'~template~'/assets/emoji3.png', null, null, true ) }}"></mj-image>
+        <mj-spacer height="16px"></mj-spacer>
+        <mj-text css-class="cs-text" align="center" font-size="14px">Ok</mj-text>
+      </mj-column>
+      <!-- 4 -->
+      <mj-column width="25%" padding-bottom="50px" padding="0px 0px" vertical-align="top">
+        <mj-image href="https://crafting.email" width="68px" height="68px" align="center" padding="0px" src="{{ getAssetUrl('themes/'~template~'/assets/emoji4.png', null, null, true ) }}"></mj-image>
+        <mj-spacer height="16px"></mj-spacer>
+        <mj-text css-class="cs-text" align="center" font-size="14px">Could be better</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Owner -->
+    <mj-section border-radius="0px 0px 20px 20px" padding="30px 30px 0px 30px" background-color="#fff">
+      <mj-column width="20%" vertical-align="middle" padding-bottom="30px">
+        <mj-image width="80px" height="80px" src="{{ getAssetUrl('themes/'~template~'/assets/owner.png', null, null, true ) }}" align="left" padding="0px"></mj-image>
+      </mj-column>
+      <mj-column width="2%"></mj-column>
+      <mj-column width="78%" vertical-align="middle" padding-bottom="30px">
+        <mj-text css-class="cs-text" align="left">
+          <p>Thank you so your time and for helping us grow!</p>
+          <p>Marcus, Founder of Company</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Footer -->
+    <mj-section padding="30px 30px 50px 30px">
+      <mj-column>
+        <mj-social mode="horizontal" icon-size="24px" padding="0px" inner-padding="8px" border-radius="60px">
+          <mj-social-element name="facebook-noshare" href="#" background-color="#AE6765" icon-padding="4px"></mj-social-element>
+          <mj-social-element name="instagram-noshare" href="#" background-color="#AE6765" icon-padding="4px"></mj-social-element>
+        </mj-social>
+        <mj-spacer height="16px"></mj-spacer>
+        <mj-text css-class="es-text" color="#AE6765" font-size="14px" align="center"> Crafted with love by <a href="https://github.com/ricfreire">Ricardo Freire</a>.</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
